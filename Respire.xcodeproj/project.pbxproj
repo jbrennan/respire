@@ -13,6 +13,9 @@
 		CD40BD53166BD19A00811C6C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CD40BD51166BD19A00811C6C /* Credits.rtf */; };
 		CD40BD56166BD19A00811C6C /* JBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD40BD55166BD19A00811C6C /* JBAppDelegate.m */; };
 		CD40BD59166BD19A00811C6C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD40BD57166BD19A00811C6C /* MainMenu.xib */; };
+		CDA3FEF1166BE0C6007C892F /* JBBreathingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA3FEF0166BE0C6007C892F /* JBBreathingView.m */; };
+		CDA3FF0D166BE15F007C892F /* JBBlockTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA3FF0C166BE15F007C892F /* JBBlockTimer.m */; };
+		CDA3FF4B166BEA85007C892F /* JBNoiseImageGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA3FF4A166BEA85007C892F /* JBNoiseImageGenerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,12 @@
 		CD40BD54166BD19A00811C6C /* JBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JBAppDelegate.h; sourceTree = "<group>"; };
 		CD40BD55166BD19A00811C6C /* JBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBAppDelegate.m; sourceTree = "<group>"; };
 		CD40BD58166BD19A00811C6C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CDA3FEEF166BE0C6007C892F /* JBBreathingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBBreathingView.h; sourceTree = "<group>"; };
+		CDA3FEF0166BE0C6007C892F /* JBBreathingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBBreathingView.m; sourceTree = "<group>"; };
+		CDA3FF0B166BE15F007C892F /* JBBlockTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBBlockTimer.h; sourceTree = "<group>"; };
+		CDA3FF0C166BE15F007C892F /* JBBlockTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBBlockTimer.m; sourceTree = "<group>"; };
+		CDA3FF49166BEA85007C892F /* JBNoiseImageGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBNoiseImageGenerator.h; sourceTree = "<group>"; };
+		CDA3FF4A166BEA85007C892F /* JBNoiseImageGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBNoiseImageGenerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +91,16 @@
 		CD40BD48166BD19A00811C6C /* Respire */ = {
 			isa = PBXGroup;
 			children = (
+				CDA3FEEF166BE0C6007C892F /* JBBreathingView.h */,
+				CDA3FEF0166BE0C6007C892F /* JBBreathingView.m */,
 				CD40BD54166BD19A00811C6C /* JBAppDelegate.h */,
 				CD40BD55166BD19A00811C6C /* JBAppDelegate.m */,
 				CD40BD57166BD19A00811C6C /* MainMenu.xib */,
 				CD40BD49166BD19A00811C6C /* Supporting Files */,
+				CDA3FF0B166BE15F007C892F /* JBBlockTimer.h */,
+				CDA3FF0C166BE15F007C892F /* JBBlockTimer.m */,
+				CDA3FF49166BEA85007C892F /* JBNoiseImageGenerator.h */,
+				CDA3FF4A166BEA85007C892F /* JBNoiseImageGenerator.m */,
 			);
 			path = Respire;
 			sourceTree = "<group>";
@@ -169,6 +184,9 @@
 			files = (
 				CD40BD4F166BD19A00811C6C /* main.m in Sources */,
 				CD40BD56166BD19A00811C6C /* JBAppDelegate.m in Sources */,
+				CDA3FEF1166BE0C6007C892F /* JBBreathingView.m in Sources */,
+				CDA3FF0D166BE15F007C892F /* JBBlockTimer.m in Sources */,
+				CDA3FF4B166BEA85007C892F /* JBNoiseImageGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +316,7 @@
 				CD40BD5E166BD19A00811C6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
